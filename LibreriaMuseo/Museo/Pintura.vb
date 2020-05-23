@@ -4,13 +4,18 @@
     Private _altura, _anchura As Integer
     Private _soporte, _pintura As String
 
-    Sub New(titulo As String, id As Integer, añoCreada As Integer, autor As Artista, altura As Integer, anchura As Integer, soporte As String, pintura As String)
+    Sub New(titulo As String, id As Integer, añoCreada As String, autor As Artista, altura As Integer, anchura As Integer, soporte As String, pintura As String)
         MyBase.New(titulo, id, añoCreada, autor)
         Me._altura = altura
         Me._anchura = anchura
         Me._soporte = soporte
         Me._pintura = pintura
     End Sub
+
+    Sub New()
+
+    End Sub
+
 
     Public Property altura() As Integer
         Get

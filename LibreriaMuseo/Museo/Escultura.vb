@@ -10,11 +10,16 @@
     Private _altura As Integer
     Private _material As Materiales
 
-    Sub New(titulo As String, id As Integer, añoCreada As Integer, autor As Artista, altura As Integer, material As Materiales)
+    Sub New(titulo As String, id As Integer, añoCreada As String, autor As Artista, altura As Integer, material As Materiales)
         MyBase.New(titulo, id, añoCreada, autor)
         Me._altura = altura
         Me._material = material
     End Sub
+
+    Sub New()
+
+    End Sub
+
 
     Public Property altura() As Integer
         Get

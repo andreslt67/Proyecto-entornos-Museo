@@ -8,6 +8,11 @@
         Me._fechaNac = fechaNac
     End Sub
 
+    Sub New()
+
+    End Sub
+
+
     Public Property nombre() As String
         Get
             Return Me._nombre

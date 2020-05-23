@@ -5,11 +5,15 @@
     Private _añoCreada As Integer
     Private _autor As Artista
 
-    Sub New(titulo As String, id As Integer, añoCreada As Integer, autor As Artista)
+    Sub New(titulo As String, id As Integer, añoCreada As String, autor As Artista)
         Me._titulo = titulo
         Me._id = id
         Me._añoCreada = añoCreada
         Me._autor = autor
+    End Sub
+
+    Sub New()
+
     End Sub
 
     Public Property titulo() As String
@@ -30,11 +34,11 @@
         End Set
     End Property
 
-    Public Property añoCreada() As Integer
+    Public Property añoCreada() As String
         Get
             Return Me._añoCreada
         End Get
-        Set(value As Integer)
+        Set(value As String)
             Me._añoCreada = value
         End Set
     End Property
