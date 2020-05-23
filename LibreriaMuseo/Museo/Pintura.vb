@@ -4,8 +4,8 @@
     Private _altura, _anchura As Integer
     Private _soporte, _pintura As String
 
-    Sub New(titulo As String, id As Integer, añoCreada As String, autor As Artista, altura As Integer, anchura As Integer, soporte As String, pintura As String)
-        MyBase.New(titulo, id, añoCreada, autor)
+    Sub New(titulo As String, id As Integer, annoCreada As String, autor As String, altura As Integer, anchura As Integer, soporte As String, pintura As String)
+        MyBase.New(titulo, id, annoCreada, autor)
         Me._altura = altura
         Me._anchura = anchura
         Me._soporte = soporte
@@ -53,7 +53,7 @@
         End Set
     End Property
 
-    Public Function toStringPintura()
+    Public Overloads Function toStringObra()
         Dim datos As String
         datos = MyBase.toStringObra + " Altura: " + Me._altura + "cm Anchura: " + Me._anchura + "cm Pintada sobre: " + Me._soporte + " Pintada con:" + Me._pintura
         Return datos

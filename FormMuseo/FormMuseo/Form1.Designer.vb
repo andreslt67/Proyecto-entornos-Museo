@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class form1
+Partial Class formPrincipal
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -29,9 +29,9 @@ Partial Class form1
         Me.btnEliminar = New System.Windows.Forms.Button()
         Me.btnBuscar = New System.Windows.Forms.Button()
         Me.panel1 = New System.Windows.Forms.Panel()
-        Me.lblPanel = New System.Windows.Forms.Label()
-        Me.btnSuperficie = New System.Windows.Forms.Button()
         Me.btnMasAlta = New System.Windows.Forms.Button()
+        Me.btnSuperficie = New System.Windows.Forms.Button()
+        Me.lblPanel = New System.Windows.Forms.Label()
         Me.btnSalir = New System.Windows.Forms.Button()
         Me.panel1.SuspendLayout()
         Me.SuspendLayout()
@@ -114,16 +114,16 @@ Partial Class form1
         Me.panel1.Size = New System.Drawing.Size(342, 100)
         Me.panel1.TabIndex = 6
         '
-        'lblPanel
+        'btnMasAlta
         '
-        Me.lblPanel.AutoSize = True
-        Me.lblPanel.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblPanel.ForeColor = System.Drawing.Color.White
-        Me.lblPanel.Location = New System.Drawing.Point(99, 11)
-        Me.lblPanel.Name = "lblPanel"
-        Me.lblPanel.Size = New System.Drawing.Size(126, 13)
-        Me.lblPanel.TabIndex = 0
-        Me.lblPanel.Text = "Te puede interesar..."
+        Me.btnMasAlta.BackColor = System.Drawing.SystemColors.Control
+        Me.btnMasAlta.ForeColor = System.Drawing.Color.Black
+        Me.btnMasAlta.Location = New System.Drawing.Point(182, 43)
+        Me.btnMasAlta.Name = "btnMasAlta"
+        Me.btnMasAlta.Size = New System.Drawing.Size(113, 23)
+        Me.btnMasAlta.TabIndex = 8
+        Me.btnMasAlta.Text = "Record altura"
+        Me.btnMasAlta.UseVisualStyleBackColor = False
         '
         'btnSuperficie
         '
@@ -136,16 +136,16 @@ Partial Class form1
         Me.btnSuperficie.Text = "Superficie"
         Me.btnSuperficie.UseVisualStyleBackColor = False
         '
-        'btnMasAlta
+        'lblPanel
         '
-        Me.btnMasAlta.BackColor = System.Drawing.SystemColors.Control
-        Me.btnMasAlta.ForeColor = System.Drawing.Color.Black
-        Me.btnMasAlta.Location = New System.Drawing.Point(182, 43)
-        Me.btnMasAlta.Name = "btnMasAlta"
-        Me.btnMasAlta.Size = New System.Drawing.Size(113, 23)
-        Me.btnMasAlta.TabIndex = 8
-        Me.btnMasAlta.Text = "Record altura"
-        Me.btnMasAlta.UseVisualStyleBackColor = False
+        Me.lblPanel.AutoSize = True
+        Me.lblPanel.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblPanel.ForeColor = System.Drawing.Color.White
+        Me.lblPanel.Location = New System.Drawing.Point(99, 11)
+        Me.lblPanel.Name = "lblPanel"
+        Me.lblPanel.Size = New System.Drawing.Size(126, 13)
+        Me.lblPanel.TabIndex = 0
+        Me.lblPanel.Text = "Te puede interesar..."
         '
         'btnSalir
         '
@@ -158,7 +158,7 @@ Partial Class form1
         Me.btnSalir.Text = "Salir"
         Me.btnSalir.UseVisualStyleBackColor = False
         '
-        'form1
+        'formPrincipal
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -173,7 +173,7 @@ Partial Class form1
         Me.Controls.Add(Me.lblTitulo)
         Me.Controls.Add(Me.lblHeader)
         Me.ForeColor = System.Drawing.Color.Black
-        Me.Name = "form1"
+        Me.Name = "formPrincipal"
         Me.Text = "Catálogo del museo"
         Me.panel1.ResumeLayout(False)
         Me.panel1.PerformLayout()

@@ -1,14 +1,11 @@
 ﻿Public Class Catalogo
 
-    Private _obras As ArrayList
+    Private _obras As ArrayList = New ArrayList()
+    Dim o1 As Pintura = New Pintura("La noche estrellada", 1, "1889 DC", "Vincent Van Gogh", 12, 6, "caballete", "oleo")
+    Dim o2 As Escultura = New Escultura("Discóbolo", 2, "455 DC", "Mirón de Eléuteras", 230, Escultura.Materiales.piedra)
 
     Sub New()
-        Dim a1 As Artista = New Artista("Vincent Van Gogh", "Paises Bajos", "3-12-1853")
-        Dim o1 As ObraArtistica = New Pintura("La noche estrellada", 1, "1889 DC", a1, 12, 6, "caballete", "oleo")
         _obras.Add(o1)
-
-        Dim a2 As Artista = New Artista("Mirón de Eléuteras", "Grecia", "480 AC")
-        Dim o2 As ObraArtistica = New Escultura("Discóbolo", 2, "455 DC", a2, 230, Escultura.Materiales.piedra)
         _obras.Add(o2)
     End Sub
 

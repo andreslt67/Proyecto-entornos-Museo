@@ -1,14 +1,14 @@
 ﻿Public Class ObraArtistica
 
-    Private _titulo As String
-    Private _id As Integer
-    Private _añoCreada As Integer
-    Private _autor As Artista
+    Protected _titulo As String
+    Protected _id As Integer
+    Protected _annoCreada As String
+    Protected _autor As String
 
-    Sub New(titulo As String, id As Integer, añoCreada As String, autor As Artista)
+    Sub New(titulo As String, id As Integer, annoCreada As String, autor As String)
         Me._titulo = titulo
         Me._id = id
-        Me._añoCreada = añoCreada
+        Me._annoCreada = annoCreada
         Me._autor = autor
     End Sub
 
@@ -34,27 +34,27 @@
         End Set
     End Property
 
-    Public Property añoCreada() As String
+    Public Property annoCreada() As String
         Get
-            Return Me._añoCreada
+            Return Me._annoCreada
         End Get
         Set(value As String)
-            Me._añoCreada = value
+            Me._annoCreada = value
         End Set
     End Property
 
-    Public Property autor() As Artista
+    Public Property autor() As String
         Get
             Return Me._autor
         End Get
-        Set(value As Artista)
+        Set(value As String)
             Me._autor = value
         End Set
     End Property
 
     Public Function toStringObra()
         Dim datos As String
-        datos = "Título: " + Me._titulo + " Creada en el año: " + Me._añoCreada + " por el autor: " + Me._autor.nombre
+        datos = "Título: " + Me._titulo + " Creada en el año: " + Me._annoCreada + " por el autor: " + Me._autor
         Return datos
     End Function
 

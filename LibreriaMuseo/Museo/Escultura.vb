@@ -10,8 +10,8 @@
     Private _altura As Integer
     Private _material As Materiales
 
-    Sub New(titulo As String, id As Integer, añoCreada As String, autor As Artista, altura As Integer, material As Materiales)
-        MyBase.New(titulo, id, añoCreada, autor)
+    Sub New(titulo As String, id As Integer, annoCreada As String, autor As String, altura As Integer, material As Materiales)
+        MyBase.New(titulo, id, annoCreada, autor)
         Me._altura = altura
         Me._material = material
     End Sub
@@ -39,7 +39,7 @@
         End Set
     End Property
 
-    Public Function toStringEscultura()
+    Public Overloads Function toStringObra()
         Dim datos As String
         datos = MyBase.toStringObra + " Altura: " + Me._altura + "Hecho con: " + Me._material
         Return datos
