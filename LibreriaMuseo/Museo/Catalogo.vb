@@ -25,17 +25,15 @@
 
     Public Function eliminarObra(id As Integer)
         Dim eliminada As Boolean = False
-        For Each elemento As ObraArtistica In _obras
-            If id = elemento.id Then
-                _obras.RemoveAt(id)
-                eliminada = True
-            End If
-        Next
+        Dim obra As ObraArtistica = buscarObra(id)
+
+        _obras.Remove(obra)
+        eliminada = True
 
         Return eliminada
     End Function
 
-    Public Function buscarObra(id As String) As ObraArtistica
+    Public Function buscarObra(id As Integer) As ObraArtistica
         Return _obras.Item(id)
     End Function
 

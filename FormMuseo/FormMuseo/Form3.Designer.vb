@@ -44,16 +44,16 @@ Partial Class formAnadir
         Me.txtPintura = New System.Windows.Forms.TextBox()
         Me.btnAnadir = New System.Windows.Forms.Button()
         Me.btnAnadirE = New System.Windows.Forms.Button()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
-        Me.TextBox5 = New System.Windows.Forms.TextBox()
-        Me.TextBox6 = New System.Windows.Forms.TextBox()
-        Me.TextBox7 = New System.Windows.Forms.TextBox()
+        Me.txtAlturaE = New System.Windows.Forms.TextBox()
+        Me.txtAutorE = New System.Windows.Forms.TextBox()
+        Me.txtAnnoE = New System.Windows.Forms.TextBox()
+        Me.txtIdE = New System.Windows.Forms.TextBox()
         Me.lblMaterial = New System.Windows.Forms.Label()
         Me.lblAlturaE = New System.Windows.Forms.Label()
         Me.lblAutorE = New System.Windows.Forms.Label()
         Me.lblAnnoE = New System.Windows.Forms.Label()
         Me.lblIdE = New System.Windows.Forms.Label()
-        Me.TextBox8 = New System.Windows.Forms.TextBox()
+        Me.txtTituloE = New System.Windows.Forms.TextBox()
         Me.lblTituloE = New System.Windows.Forms.Label()
         Me.cbxMaterial = New System.Windows.Forms.ComboBox()
         Me.tab1.SuspendLayout()
@@ -114,16 +114,16 @@ Partial Class formAnadir
         '
         Me.tabPage2.Controls.Add(Me.cbxMaterial)
         Me.tabPage2.Controls.Add(Me.btnAnadirE)
-        Me.tabPage2.Controls.Add(Me.TextBox4)
-        Me.tabPage2.Controls.Add(Me.TextBox5)
-        Me.tabPage2.Controls.Add(Me.TextBox6)
-        Me.tabPage2.Controls.Add(Me.TextBox7)
+        Me.tabPage2.Controls.Add(Me.txtAlturaE)
+        Me.tabPage2.Controls.Add(Me.txtAutorE)
+        Me.tabPage2.Controls.Add(Me.txtAnnoE)
+        Me.tabPage2.Controls.Add(Me.txtIdE)
         Me.tabPage2.Controls.Add(Me.lblMaterial)
         Me.tabPage2.Controls.Add(Me.lblAlturaE)
         Me.tabPage2.Controls.Add(Me.lblAutorE)
         Me.tabPage2.Controls.Add(Me.lblAnnoE)
         Me.tabPage2.Controls.Add(Me.lblIdE)
-        Me.tabPage2.Controls.Add(Me.TextBox8)
+        Me.tabPage2.Controls.Add(Me.txtTituloE)
         Me.tabPage2.Controls.Add(Me.lblTituloE)
         Me.tabPage2.Location = New System.Drawing.Point(4, 22)
         Me.tabPage2.Name = "tabPage2"
@@ -291,33 +291,33 @@ Partial Class formAnadir
         Me.btnAnadirE.Text = "Añadir Escultura"
         Me.btnAnadirE.UseVisualStyleBackColor = False
         '
-        'TextBox4
+        'txtAlturaE
         '
-        Me.TextBox4.Location = New System.Drawing.Point(275, 144)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(365, 20)
-        Me.TextBox4.TabIndex = 31
+        Me.txtAlturaE.Location = New System.Drawing.Point(275, 144)
+        Me.txtAlturaE.Name = "txtAlturaE"
+        Me.txtAlturaE.Size = New System.Drawing.Size(365, 20)
+        Me.txtAlturaE.TabIndex = 31
         '
-        'TextBox5
+        'txtAutorE
         '
-        Me.TextBox5.Location = New System.Drawing.Point(275, 114)
-        Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(365, 20)
-        Me.TextBox5.TabIndex = 30
+        Me.txtAutorE.Location = New System.Drawing.Point(275, 114)
+        Me.txtAutorE.Name = "txtAutorE"
+        Me.txtAutorE.Size = New System.Drawing.Size(365, 20)
+        Me.txtAutorE.TabIndex = 30
         '
-        'TextBox6
+        'txtAnnoE
         '
-        Me.TextBox6.Location = New System.Drawing.Point(275, 83)
-        Me.TextBox6.Name = "TextBox6"
-        Me.TextBox6.Size = New System.Drawing.Size(365, 20)
-        Me.TextBox6.TabIndex = 29
+        Me.txtAnnoE.Location = New System.Drawing.Point(275, 83)
+        Me.txtAnnoE.Name = "txtAnnoE"
+        Me.txtAnnoE.Size = New System.Drawing.Size(365, 20)
+        Me.txtAnnoE.TabIndex = 29
         '
-        'TextBox7
+        'txtIdE
         '
-        Me.TextBox7.Location = New System.Drawing.Point(275, 53)
-        Me.TextBox7.Name = "TextBox7"
-        Me.TextBox7.Size = New System.Drawing.Size(365, 20)
-        Me.TextBox7.TabIndex = 28
+        Me.txtIdE.Location = New System.Drawing.Point(275, 53)
+        Me.txtIdE.Name = "txtIdE"
+        Me.txtIdE.Size = New System.Drawing.Size(365, 20)
+        Me.txtIdE.TabIndex = 28
         '
         'lblMaterial
         '
@@ -369,12 +369,12 @@ Partial Class formAnadir
         Me.lblIdE.TabIndex = 21
         Me.lblIdE.Text = "Introduce un ID:"
         '
-        'TextBox8
+        'txtTituloE
         '
-        Me.TextBox8.Location = New System.Drawing.Point(275, 19)
-        Me.TextBox8.Name = "TextBox8"
-        Me.TextBox8.Size = New System.Drawing.Size(365, 20)
-        Me.TextBox8.TabIndex = 20
+        Me.txtTituloE.Location = New System.Drawing.Point(275, 19)
+        Me.txtTituloE.Name = "txtTituloE"
+        Me.txtTituloE.Size = New System.Drawing.Size(365, 20)
+        Me.txtTituloE.TabIndex = 20
         '
         'lblTituloE
         '
@@ -434,16 +434,16 @@ Partial Class formAnadir
     Friend WithEvents lblAnchura As System.Windows.Forms.Label
     Friend WithEvents btnAnadir As System.Windows.Forms.Button
     Friend WithEvents btnAnadirE As System.Windows.Forms.Button
-    Friend WithEvents TextBox4 As System.Windows.Forms.TextBox
-    Friend WithEvents TextBox5 As System.Windows.Forms.TextBox
-    Friend WithEvents TextBox6 As System.Windows.Forms.TextBox
-    Friend WithEvents TextBox7 As System.Windows.Forms.TextBox
+    Friend WithEvents txtAlturaE As System.Windows.Forms.TextBox
+    Friend WithEvents txtAutorE As System.Windows.Forms.TextBox
+    Friend WithEvents txtAnnoE As System.Windows.Forms.TextBox
+    Friend WithEvents txtIdE As System.Windows.Forms.TextBox
     Friend WithEvents lblMaterial As System.Windows.Forms.Label
     Friend WithEvents lblAlturaE As System.Windows.Forms.Label
     Friend WithEvents lblAutorE As System.Windows.Forms.Label
     Friend WithEvents lblAnnoE As System.Windows.Forms.Label
     Friend WithEvents lblIdE As System.Windows.Forms.Label
-    Friend WithEvents TextBox8 As System.Windows.Forms.TextBox
+    Friend WithEvents txtTituloE As System.Windows.Forms.TextBox
     Friend WithEvents lblTituloE As System.Windows.Forms.Label
     Friend WithEvents cbxMaterial As System.Windows.Forms.ComboBox
 End Class

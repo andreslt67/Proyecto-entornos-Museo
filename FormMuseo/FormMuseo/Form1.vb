@@ -14,4 +14,12 @@ Public Class formPrincipal
     Private Sub btnAñadir_Click(sender As Object, e As EventArgs) Handles btnAñadir.Click
         formAnadir.ShowDialog()
     End Sub
+
+    Private Sub btnEliminar_Click(sender As Object, e As EventArgs) Handles btnEliminar.Click
+        formEliminar.ShowDialog()
+    End Sub
+
+    Private Sub btnBuscar_Click(sender As Object, e As EventArgs) Handles btnBuscar.Click
+        formBuscar.ShowDialog()
+    End Sub
 End Class

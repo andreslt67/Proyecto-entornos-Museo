@@ -28,11 +28,11 @@ Public Class formAnadir
     End Sub
 
     Private Sub btnAnadirE_Click(sender As Object, e As EventArgs) Handles btnAnadirE.Click
-        Dim titulo As String = textTitulo.Text
-        Dim id As Integer = txtId.Text
-        Dim anno As String = txtAnno.Text
-        Dim autor As String = txtAutor.Text
-        Dim altura As Integer = txtAltura.Text
+        Dim titulo As String = txtTituloE.Text
+        Dim id As Integer = txtIdE.Text
+        Dim anno As String = txtAnnoE.Text
+        Dim autor As String = txtAutorE.Text
+        Dim altura As Integer = txtAlturaE.Text
         Dim material As Escultura.Materiales = cbxMaterial.SelectedItem
 
         Dim escultura As Escultura = New Escultura(titulo, id, anno, autor, altura, material)
