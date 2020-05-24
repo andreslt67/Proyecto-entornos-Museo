@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<DynamicHelp xmlns="http://msdn.microsoft.com/vsdata/xsd/vsdh.xsd" xmlns:xsi="http://www.w3.org/2000/10/XMLSchema-instance" xsi:schemaLocation="http://msdn.microsoft.com/vsdata/xsd/vsdh.xsd">	
+   <LINKGROUP ID="FormMuseo" Title="FormMuseo Reference Help" Priority="2100">
+      <GLYPH Expanded="vs:/ctxhelp_show.gif" Collapsed="vs:/ctxhelp_hide.gif"/>
+   </LINKGROUP>
+
+   <Context>
+      <Keywords>
+         <KItem Name="FormMuseo.formAnadir.Dispose" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:FormMuseo.chm::/topic_0000000000000016_overloads--.html" LinkGroup="FormMuseo">Dispose Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="FormMuseo.formBuscar.Dispose" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:FormMuseo.chm::/topic_0000000000000022_overloads--.html" LinkGroup="FormMuseo">Dispose Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="FormMuseo.formEliminar.Dispose" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:FormMuseo.chm::/topic_000000000000001C_overloads--.html" LinkGroup="FormMuseo">Dispose Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="FormMuseo.formLista.Dispose" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:FormMuseo.chm::/topic_000000000000000F_overloads--.html" LinkGroup="FormMuseo">Dispose Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="FormMuseo.formPrincipal.Dispose" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:FormMuseo.chm::/topic_0000000000000009_overloads--.html" LinkGroup="FormMuseo">Dispose Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="FormMuseo" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:FormMuseo.chm::/topic_0000000000000028.html" LinkGroup="FormMuseo">FormMuseo Namespace</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="FormMuseo Reference" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:FormMuseo.chm::/topic_0000000000000027.html" LinkGroup="FormMuseo">FormMuseo Reference</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="FormMuseo.formAnadir.InitializeComponent" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:FormMuseo.chm::/topic_0000000000000018.html" LinkGroup="FormMuseo">InitializeComponent Method {FormMuseo.formAnadir}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="FormMuseo.formBuscar.InitializeComponent" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:FormMuseo.chm::/topic_0000000000000024.html" LinkGroup="FormMuseo">InitializeComponent Method {FormMuseo.formBuscar}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="FormMuseo.formEliminar.InitializeComponent" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:FormMuseo.chm::/topic_000000000000001E.html" LinkGroup="FormMuseo">InitializeComponent Method {FormMuseo.formEliminar}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="FormMuseo.formLista.InitializeComponent" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:FormMuseo.chm::/topic_0000000000000011.html" LinkGroup="FormMuseo">InitializeComponent Method {FormMuseo.formLista}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="FormMuseo.formPrincipal.InitializeComponent" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:FormMuseo.chm::/topic_000000000000000B.html" LinkGroup="FormMuseo">InitializeComponent Method {FormMuseo.formPrincipal}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="FormMuseo.formLista.btnAceptar_Click" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:FormMuseo.chm::/topic_000000000000000D.html" LinkGroup="FormMuseo">btnAceptar_Click Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="FormMuseo.formAnadir.btnAnadirE_Click" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:FormMuseo.chm::/topic_0000000000000015.html" LinkGroup="FormMuseo">btnAnadirE_Click Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="FormMuseo.formAnadir.btnAnadir_Click" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:FormMuseo.chm::/topic_0000000000000014.html" LinkGroup="FormMuseo">btnAnadir_Click Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="FormMuseo.formPrincipal.btnAñadir_Click" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:FormMuseo.chm::/topic_0000000000000004.html" LinkGroup="FormMuseo">btnAñadir_Click Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="FormMuseo.formBuscar.btnBuscar_Click" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:FormMuseo.chm::/topic_0000000000000021.html" LinkGroup="FormMuseo">btnBuscar_Click Method {FormMuseo.formBuscar}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="FormMuseo.formPrincipal.btnBuscar_Click" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:FormMuseo.chm::/topic_0000000000000006.html" LinkGroup="FormMuseo">btnBuscar_Click Method {FormMuseo.formPrincipal}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="FormMuseo.formEliminar.btnEliminar_Click" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:FormMuseo.chm::/topic_000000000000001A.html" LinkGroup="FormMuseo">btnEliminar_Click Method {FormMuseo.formEliminar}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="FormMuseo.formPrincipal.btnEliminar_Click" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:FormMuseo.chm::/topic_0000000000000005.html" LinkGroup="FormMuseo">btnEliminar_Click Method {FormMuseo.formPrincipal}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="FormMuseo.formPrincipal.btnMasAlta_Click" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:FormMuseo.chm::/topic_0000000000000008.html" LinkGroup="FormMuseo">btnMasAlta_Click Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="FormMuseo.formPrincipal.btnMostrarLista_Click" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:FormMuseo.chm::/topic_0000000000000003.html" LinkGroup="FormMuseo">btnMostrarLista_Click Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="FormMuseo.formPrincipal.btnSalir_Click" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:FormMuseo.chm::/topic_0000000000000002.html" LinkGroup="FormMuseo">btnSalir_Click Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="FormMuseo.formPrincipal.btnSuperficie_Click" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:FormMuseo.chm::/topic_0000000000000007.html" LinkGroup="FormMuseo">btnSuperficie_Click Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="FormMuseo.formPrincipal.catalogo" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:FormMuseo.chm::/topic_0000000000000001.html" LinkGroup="FormMuseo">catalogo Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="FormMuseo.formBuscar.cbxObra_Click" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:FormMuseo.chm::/topic_0000000000000020.html" LinkGroup="FormMuseo">cbxObra_Click Method {FormMuseo.formBuscar}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="FormMuseo.formEliminar.cbxObra_Click" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:FormMuseo.chm::/topic_000000000000001B.html" LinkGroup="FormMuseo">cbxObra_Click Method {FormMuseo.formEliminar}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="FormMuseo.formAnadir.components" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:FormMuseo.chm::/topic_0000000000000017.html" LinkGroup="FormMuseo">components Field {FormMuseo.formAnadir}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="FormMuseo.formBuscar.components" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:FormMuseo.chm::/topic_0000000000000023.html" LinkGroup="FormMuseo">components Field {FormMuseo.formBuscar}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="FormMuseo.formEliminar.components" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:FormMuseo.chm::/topic_000000000000001D.html" LinkGroup="FormMuseo">components Field {FormMuseo.formEliminar}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="FormMuseo.formLista.components" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:FormMuseo.chm::/topic_0000000000000010.html" LinkGroup="FormMuseo">components Field {FormMuseo.formLista}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="FormMuseo.formPrincipal.components" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:FormMuseo.chm::/topic_000000000000000A.html" LinkGroup="FormMuseo">components Field {FormMuseo.formPrincipal}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="FormMuseo.formAnadir" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:FormMuseo.chm::/topic_0000000000000012.html" LinkGroup="FormMuseo">formAnadir Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="FormMuseo.formAnadir.formAnadir_Load" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:FormMuseo.chm::/topic_0000000000000013.html" LinkGroup="FormMuseo">formAnadir_Load Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="FormMuseo.formBuscar" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:FormMuseo.chm::/topic_000000000000001F.html" LinkGroup="FormMuseo">formBuscar Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="FormMuseo.formEliminar" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:FormMuseo.chm::/topic_0000000000000019.html" LinkGroup="FormMuseo">formEliminar Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="FormMuseo.formLista" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:FormMuseo.chm::/topic_000000000000000C.html" LinkGroup="FormMuseo">formLista Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="FormMuseo.formLista.formLista_Load" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:FormMuseo.chm::/topic_000000000000000E.html" LinkGroup="FormMuseo">formLista_Load Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="FormMuseo.formPrincipal" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:FormMuseo.chm::/topic_0000000000000000.html" LinkGroup="FormMuseo">formPrincipal Class</LItem>
+      </Links>
+   </Context>
+   
+
+</DynamicHelp>
+

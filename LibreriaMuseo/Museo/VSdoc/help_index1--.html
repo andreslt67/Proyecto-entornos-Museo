@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <title>Index</title>
+  <meta content="text/html; charset=utf-8" http-equiv="content-type">
+	<style>
+		html,body {
+			margin: 0; padding: 0px;
+			height:100%; 
+			min-height:100%;
+			background-color: rgb(233,232,220);
+			font-family: Verdana, Arial, Helvetica, sans-serif;
+			font-style: normal;
+			font-weight: normal;
+			color: black;
+		}
+
+		body {font-size:75%;position:relative; margin-top:-1px; border-style: solid solid solid solid;	border-color: rgb(172,168,153);	border-width: 0px 0px 1px 0px;}
+		a { text-decoration:none; color:#06c }
+		form {padding:5px; margin:0px;}
+	</style>
+
+ <link rel="stylesheet" type="text/css" href="vsdocman_overrides.css"></link> 
+</head>
+<body style="direction: ltr;">
+	<form>
+	Look for:<br /><input style="width:100%" onKeyDown="check_input(this.value,get_match)" onKeyUp="check_input(this.value,get_match)"/>
+	</form>
+
+	<script>
+		var words = new Array(
+"Catalogo Class","Catalogo Constructor {Proyecto.Catalogo}","Equals Method {Proyecto.Escultura}","Equals Method {Proyecto.ObraArtistica}","Equals Method {Proyecto.Pintura}","Escultura  Constructor {Proyecto.Escultura}","Escultura (String, Integer, String, String, Integer, Materiales) Constructor {Proyecto.Escultura}","Escultura Class","Materiales Enumeration","Museo Reference","ObraArtistica  Constructor {Proyecto.ObraArtistica}","ObraArtistica (String, Integer, String, String) Constructor {Proyecto.ObraArtistica}","ObraArtistica Class","Pintura  Constructor {Proyecto.Pintura}","Pintura (String, Integer, String, String, Integer, Integer, String, String) Constructor {Proyecto.Pintura}","Pintura Class","Proyecto Namespace","_altura Field {Proyecto.Escultura}","_altura Field {Proyecto.Pintura}","_anchura Field","_annoCreada Field","_autor Field","_id Field","_material Field","_obras Field","_pintura Field","_soporte Field","_titulo Field","addObra Method","altura Property {Proyecto.Escultura}","altura Property {Proyecto.Pintura}","anchura Property","annoCreada Property","autor Property","buscarObra Method","eliminarObra Method","esculturaMasAlta Method","getNumObras Method","getObras Method","id Property","material Property","o1 Field","o2 Field","pintura Property","soporte Property","superficiePinturas Method","titulo Property","toStringObra Method {Proyecto.Escultura}","toStringObra Method {Proyecto.ObraArtistica}","toStringObra Method {Proyecto.Pintura}"
+		);
+		
+		
+		var oldHighlight = 0;
+		var oldKey = "";
+		
+		function get_match(text) {
+		    var ltext = text.toLowerCase();
+		    for(i in words) {
+		        if(words[i].toLowerCase().indexOf(ltext) == "0") {
+		            return words[i];
+		        }
+		    }
+		    return "";
+		}
+		
+		function highlight(keyword) {
+		    if(oldHighlight) oldHighlight.className = "";
+		    var el = parent.frames['zindex'].document.getElementById("w_"+keyword);
+		    el.className="highlighted";
+		    oldHighlight = el;
+		}
+		
+		function check_input(text, matchfun) {
+		    if(text!=oldKey) {
+		        var keyword = matchfun(text);
+		        if(keyword) {       
+		            highlight(keyword);
+		            parent.frames['zindex'].document.getElementById('w_'+keyword).scrollIntoView();
+		        }
+		        oldKey = text;
+		    }
+		}
+	</script>
+</body>
+</html>
+

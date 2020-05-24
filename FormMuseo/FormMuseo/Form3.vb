@@ -1,6 +1,14 @@
 ﻿Imports Proyecto
+''' <summary>
+''' Clase del formulario formAnadir de la aplicación, importa la librería Museo
+''' </summary>
 Public Class formAnadir
 
+    ''' <summary>
+    ''' Método que actualiza el comboBox del formulario con los distintos materiales del Enum de escultura cuando se produce el evento
+    ''' </summary>
+    ''' <param name="sender">Objeto en el que se ha producido el evento</param>
+    ''' <param name="e">Información adicional del objeto</param>
     Private Sub formAnadir_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         For i As Integer = 1 To cbxMaterial.Items.Count
             cbxMaterial.Items.Clear()
@@ -10,6 +18,11 @@ Public Class formAnadir
         Me.cbxMaterial.Items.Add(Escultura.Materiales.piedra)
     End Sub
 
+    ''' <summary>
+    ''' Método que crea un Objeto de la clase Pintura con los parametro introducidos en el formulario, lo añade al arraylist de catalogo e indica el resultado del proceso cuando se produce el evento
+    ''' </summary>
+    ''' <param name="sender">Objeto en el que se ha producido el evento</param>
+    ''' <param name="e">Información adicional del objeto</param>
     Private Sub btnAnadir_Click(sender As Object, e As EventArgs) Handles btnAnadir.Click
         If IsNumeric(txtId.Text) And IsNumeric(txtAltura.Text) And IsNumeric(txtAnchura.Text) Then
             Dim titulo As String = textTitulo.Text
@@ -34,6 +47,11 @@ Public Class formAnadir
 
     End Sub
 
+    ''' <summary>
+    ''' Método que crea un Objeto de la clase Escultura con los parametro introducidos en el formulario, lo añade al arraylist de catalogo e indica el resultado del proceso cuando se produce el evento
+    ''' </summary>
+    ''' <param name="sender">Objeto en el que se ha producido el evento</param>
+    ''' <param name="e">Información adicional del objeto</param>
     Private Sub btnAnadirE_Click(sender As Object, e As EventArgs) Handles btnAnadirE.Click
         If IsNumeric(txtIdE.Text) And IsNumeric(txtAlturaE.Text) Then
             Dim titulo As String = txtTituloE.Text

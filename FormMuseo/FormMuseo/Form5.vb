@@ -1,6 +1,14 @@
 ﻿Imports Proyecto
+''' <summary>
+''' Clase del formulario formBuscar de la aplicación, importa la librería Museo
+''' </summary>
 Public Class formBuscar
 
+    ''' <summary>
+    ''' Método que actualiza el comboBox del formulario cuando se produce el evento
+    ''' </summary>
+    ''' <param name="sender">Objeto en el que se ha producido el evento</param>
+    ''' <param name="e">Información adicional del objeto</param>
     Private Sub cbxObra_Click(sender As Object, e As EventArgs) Handles cbxObra.Click
         For i As Integer = 1 To cbxObra.Items.Count
             cbxObra.Items.Clear()
@@ -10,6 +18,11 @@ Public Class formBuscar
         Next
     End Sub
 
+    ''' <summary>
+    ''' Método que muestra la obra seleccionada en el comboBox cuando se produce el evento
+    ''' </summary>
+    ''' <param name="sender">Objeto en el que se ha producido el evento</param>
+    ''' <param name="e">Información adicional del objeto</param>
     Private Sub btnBuscar_Click(sender As Object, e As EventArgs) Handles btnBuscar.Click
         Dim id As Integer = cbxObra.SelectedIndex
         If id = -1 Then
@@ -23,7 +36,7 @@ Public Class formBuscar
             Else
                 obra = formPrincipal.catalogo.buscarObra(id)
             End If
-            MsgBox(obra.toStringObra)
+            MsgBox(obra.toStringObra) ''Refactorización: creo solo una variable y dependiendo de los condicionales le asigno un resultado y la muestro al final del método
         End If
     End Sub
 End Class

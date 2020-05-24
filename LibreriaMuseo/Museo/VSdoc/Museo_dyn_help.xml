@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<DynamicHelp xmlns="http://msdn.microsoft.com/vsdata/xsd/vsdh.xsd" xmlns:xsi="http://www.w3.org/2000/10/XMLSchema-instance" xsi:schemaLocation="http://msdn.microsoft.com/vsdata/xsd/vsdh.xsd">	
+   <LINKGROUP ID="Museo" Title="Museo Reference Help" Priority="2100">
+      <GLYPH Expanded="vs:/ctxhelp_show.gif" Collapsed="vs:/ctxhelp_hide.gif"/>
+   </LINKGROUP>
+
+
+   <Context>
+      <Keywords>
+         <KItem Name="Proyecto.Catalogo" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Museo.chm::/topic_0000000000000000.html" LinkGroup="Museo">Catalogo Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Proyecto.Catalogo.New" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Museo.chm::/topic_0000000000000004.html" LinkGroup="Museo">Catalogo Constructor {Proyecto.Catalogo}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Proyecto.Escultura.Equals" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Museo.chm::/topic_0000000000000017.html" LinkGroup="Museo">Equals Method {Proyecto.Escultura}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Proyecto.ObraArtistica.Equals" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Museo.chm::/topic_0000000000000026.html" LinkGroup="Museo">Equals Method {Proyecto.ObraArtistica}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Proyecto.Pintura.Equals" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Museo.chm::/topic_0000000000000033.html" LinkGroup="Museo">Equals Method {Proyecto.Pintura}</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Proyecto.Escultura.New" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Museo.chm::/topic_0000000000000014_overloads--.html" LinkGroup="Museo">New Constructor</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Proyecto.Escultura.New" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Museo.chm::/topic_0000000000000013_overloads--.html" LinkGroup="Museo">New Constructor</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Proyecto.Escultura" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Museo.chm::/topic_000000000000000C.html" LinkGroup="Museo">Escultura Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Proyecto.Escultura.Materiales" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Museo.chm::/topic_000000000000000D.html" LinkGroup="Museo">Materiales Enumeration</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Museo Reference" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Museo.chm::/topic_0000000000000035.html" LinkGroup="Museo">Museo Reference</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Proyecto.ObraArtistica.New" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Museo.chm::/topic_0000000000000021_overloads--.html" LinkGroup="Museo">New Constructor</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Proyecto.ObraArtistica.New" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Museo.chm::/topic_0000000000000020_overloads--.html" LinkGroup="Museo">New Constructor</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Proyecto.ObraArtistica" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Museo.chm::/topic_000000000000001B.html" LinkGroup="Museo">ObraArtistica Class</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Proyecto.Pintura.New" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Museo.chm::/topic_000000000000002E_overloads--.html" LinkGroup="Museo">New Constructor</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Proyecto.Pintura.New" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Museo.chm::/topic_000000000000002D_overloads--.html" LinkGroup="Museo">New Constructor</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Proyecto.Pintura" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Museo.chm::/topic_0000000000000028.html" LinkGroup="Museo">Pintura Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Proyecto" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Museo.chm::/topic_0000000000000037.html" LinkGroup="Museo">Proyecto Namespace</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Proyecto.Escultura._altura" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Museo.chm::/topic_0000000000000011.html" LinkGroup="Museo">_altura Field {Proyecto.Escultura}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Proyecto.Pintura._altura" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Museo.chm::/topic_0000000000000029.html" LinkGroup="Museo">_altura Field {Proyecto.Pintura}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Proyecto.Pintura._anchura" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Museo.chm::/topic_000000000000002A.html" LinkGroup="Museo">_anchura Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Proyecto.ObraArtistica._annoCreada" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Museo.chm::/topic_000000000000001E.html" LinkGroup="Museo">_annoCreada Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Proyecto.ObraArtistica._autor" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Museo.chm::/topic_000000000000001F.html" LinkGroup="Museo">_autor Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Proyecto.ObraArtistica._id" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Museo.chm::/topic_000000000000001D.html" LinkGroup="Museo">_id Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Proyecto.Escultura._material" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Museo.chm::/topic_0000000000000012.html" LinkGroup="Museo">_material Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Proyecto.Catalogo._obras" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Museo.chm::/topic_0000000000000001.html" LinkGroup="Museo">_obras Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Proyecto.Pintura._pintura" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Museo.chm::/topic_000000000000002C.html" LinkGroup="Museo">_pintura Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Proyecto.Pintura._soporte" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Museo.chm::/topic_000000000000002B.html" LinkGroup="Museo">_soporte Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Proyecto.ObraArtistica._titulo" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Museo.chm::/topic_000000000000001C.html" LinkGroup="Museo">_titulo Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Proyecto.Catalogo.addObra" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Museo.chm::/topic_0000000000000005.html" LinkGroup="Museo">addObra Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Proyecto.Escultura.altura" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Museo.chm::/topic_0000000000000015.html" LinkGroup="Museo">altura Property {Proyecto.Escultura}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Proyecto.Pintura.altura" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Museo.chm::/topic_000000000000002F.html" LinkGroup="Museo">altura Property {Proyecto.Pintura}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Proyecto.Pintura.anchura" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Museo.chm::/topic_0000000000000030.html" LinkGroup="Museo">anchura Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Proyecto.ObraArtistica.annoCreada" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Museo.chm::/topic_0000000000000024.html" LinkGroup="Museo">annoCreada Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Proyecto.ObraArtistica.autor" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Museo.chm::/topic_0000000000000025.html" LinkGroup="Museo">autor Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Proyecto.Catalogo.buscarObra" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Museo.chm::/topic_0000000000000007.html" LinkGroup="Museo">buscarObra Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Proyecto.Catalogo.eliminarObra" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Museo.chm::/topic_0000000000000006.html" LinkGroup="Museo">eliminarObra Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Proyecto.Catalogo.esculturaMasAlta" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Museo.chm::/topic_000000000000000A.html" LinkGroup="Museo">esculturaMasAlta Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Proyecto.Catalogo.getNumObras" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Museo.chm::/topic_0000000000000009.html" LinkGroup="Museo">getNumObras Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Proyecto.Catalogo.getObras" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Museo.chm::/topic_0000000000000008.html" LinkGroup="Museo">getObras Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Proyecto.ObraArtistica.id" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Museo.chm::/topic_0000000000000023.html" LinkGroup="Museo">id Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Proyecto.Escultura.material" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Museo.chm::/topic_0000000000000016.html" LinkGroup="Museo">material Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Proyecto.Catalogo.o1" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Museo.chm::/topic_0000000000000002.html" LinkGroup="Museo">o1 Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Proyecto.Catalogo.o2" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Museo.chm::/topic_0000000000000003.html" LinkGroup="Museo">o2 Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Proyecto.Pintura.pintura" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Museo.chm::/topic_0000000000000032.html" LinkGroup="Museo">pintura Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Proyecto.Pintura.soporte" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Museo.chm::/topic_0000000000000031.html" LinkGroup="Museo">soporte Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Proyecto.Catalogo.superficiePinturas" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Museo.chm::/topic_000000000000000B.html" LinkGroup="Museo">superficiePinturas Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Proyecto.ObraArtistica.titulo" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Museo.chm::/topic_0000000000000022.html" LinkGroup="Museo">titulo Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Proyecto.Escultura.toStringObra" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Museo.chm::/topic_0000000000000018.html" LinkGroup="Museo">toStringObra Method {Proyecto.Escultura}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Proyecto.ObraArtistica.toStringObra" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Museo.chm::/topic_0000000000000027.html" LinkGroup="Museo">toStringObra Method {Proyecto.ObraArtistica}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Proyecto.Pintura.toStringObra" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Museo.chm::/topic_0000000000000034.html" LinkGroup="Museo">toStringObra Method {Proyecto.Pintura}</LItem>
+      </Links>
+   </Context>
+   
+
+</DynamicHelp>
+
