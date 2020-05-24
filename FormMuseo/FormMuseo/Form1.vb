@@ -22,4 +22,14 @@ Public Class formPrincipal
     Private Sub btnBuscar_Click(sender As Object, e As EventArgs) Handles btnBuscar.Click
         formBuscar.ShowDialog()
     End Sub
+
+    Private Sub btnSuperficie_Click(sender As Object, e As EventArgs) Handles btnSuperficie.Click
+        Dim info As String = "La superficie total si unieramos todas las pinturas del museo sería igual a " & catalogo.superficiePinturas & " cm2."
+        MsgBox(info)
+    End Sub
+
+    Private Sub btnMasAlta_Click(sender As Object, e As EventArgs) Handles btnMasAlta.Click
+        Dim info As String = "La escultura más alta del museo es " & catalogo.esculturaMasAlta.toStringObra
+        MsgBox(info)
+    End Sub
 End Class

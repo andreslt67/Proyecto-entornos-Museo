@@ -34,7 +34,7 @@ Partial Class formLista
         Me.lblHeader.ForeColor = System.Drawing.Color.White
         Me.lblHeader.Location = New System.Drawing.Point(0, -2)
         Me.lblHeader.Name = "lblHeader"
-        Me.lblHeader.Size = New System.Drawing.Size(672, 70)
+        Me.lblHeader.Size = New System.Drawing.Size(1245, 70)
         Me.lblHeader.TabIndex = 1
         Me.lblHeader.Text = "Lista de obras"
         Me.lblHeader.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -47,14 +47,14 @@ Partial Class formLista
         Me.listBox.ItemHeight = 18
         Me.listBox.Location = New System.Drawing.Point(0, 71)
         Me.listBox.Name = "listBox"
-        Me.listBox.Size = New System.Drawing.Size(672, 180)
+        Me.listBox.Size = New System.Drawing.Size(1245, 180)
         Me.listBox.TabIndex = 2
         '
         'btnAceptar
         '
         Me.btnAceptar.BackColor = System.Drawing.SystemColors.Control
         Me.btnAceptar.ForeColor = System.Drawing.Color.Black
-        Me.btnAceptar.Location = New System.Drawing.Point(270, 257)
+        Me.btnAceptar.Location = New System.Drawing.Point(558, 257)
         Me.btnAceptar.Name = "btnAceptar"
         Me.btnAceptar.Size = New System.Drawing.Size(113, 23)
         Me.btnAceptar.TabIndex = 5
@@ -66,7 +66,7 @@ Partial Class formLista
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
-        Me.ClientSize = New System.Drawing.Size(672, 292)
+        Me.ClientSize = New System.Drawing.Size(1245, 292)
         Me.Controls.Add(Me.btnAceptar)
         Me.Controls.Add(Me.listBox)
         Me.Controls.Add(Me.lblHeader)

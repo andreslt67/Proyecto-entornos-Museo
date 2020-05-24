@@ -52,9 +52,32 @@
         End Set
     End Property
 
+    Public Overrides Function Equals(obj As Object) As Boolean
+        Dim otro As ObraArtistica = obj
+
+        If Me.GetType <> otro.GetType Then
+            Return False
+        End If
+        If Me._titulo <> otro.titulo Then
+            Return False
+        End If
+        If Me._id <> otro.id Then
+            Return False
+        End If
+        If Me._annoCreada <> otro.annoCreada Then
+            Return False
+        End If
+        If Me._autor <> otro.autor Then
+            Return False
+        End If
+
+        Return True
+    End Function
+
+
     Public Function toStringObra()
         Dim datos As String
-        datos = "Título: " + Me._titulo + " Creada en el año: " + Me._annoCreada + " por el autor: " + Me._autor
+        datos = "Título: " & Me._titulo & ", ID: " & Me._id & ", Creada en el año: " & Me._annoCreada & ", por el autor: " & Me._autor
         Return datos
     End Function
 

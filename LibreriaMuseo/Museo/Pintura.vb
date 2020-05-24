@@ -53,9 +53,30 @@
         End Set
     End Property
 
+    Public Overloads Function Equals(obj As Object) As Boolean
+        If MyBase.Equals(obj) = True Then
+            Return True
+        Else
+            Dim otro As Pintura = obj
+            If Me._altura <> otro.altura Then
+                Return False
+            End If
+            If Me._anchura <> otro.anchura Then
+                Return False
+            End If
+            If Me._soporte <> otro.soporte Then
+                Return False
+            End If
+            If Me._pintura <> otro.pintura Then
+                Return False
+            End If
+        End If
+        Return True
+    End Function
+
     Public Overloads Function toStringObra()
         Dim datos As String
-        datos = MyBase.toStringObra + " Altura: " + Me._altura + "cm Anchura: " + Me._anchura + "cm Pintada sobre: " + Me._soporte + " Pintada con:" + Me._pintura
+        datos = MyBase.toStringObra & ", Altura: " & Me._altura & "cm, Anchura: " & Me._anchura & "cm, Pintada sobre: " & Me._soporte + ", Pintada con:" & Me._pintura
         Return datos
     End Function
 

@@ -12,7 +12,18 @@ Public Class formBuscar
 
     Private Sub btnBuscar_Click(sender As Object, e As EventArgs) Handles btnBuscar.Click
         Dim id As Integer = cbxObra.SelectedIndex
-        Dim obra As ObraArtistica = formPrincipal.catalogo.buscarObra(id)
-        MsgBox(obra.toStringObra)
+        If id = -1 Then
+            MsgBox("No has introducido ningún valor")
+        Else
+            Dim obra
+            If formPrincipal.catalogo.buscarObra(id).GetType.Equals(New Pintura()) Then
+                obra = formPrincipal.catalogo.buscarObra(id)
+            ElseIf formPrincipal.catalogo.buscarObra(id).GetType.Equals(New Escultura()) Then
+                obra = formPrincipal.catalogo.buscarObra(id)
+            Else
+                obra = formPrincipal.catalogo.buscarObra(id)
+            End If
+            MsgBox(obra.toStringObra)
+        End If
     End Sub
 End Class
